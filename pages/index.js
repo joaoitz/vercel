@@ -1,10 +1,10 @@
-import {useState} from 'react'
+import React,{useState} from 'react'
 
 
 function HOME(){
 
 
-    return <div>Joao Lima
+    return <div>
         <div>{calcula}</div>
     </div>
 
