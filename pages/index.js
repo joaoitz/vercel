@@ -1,17 +1,36 @@
 import {useState} from 'react'
 
 
-
-function HOME () {
-    const [cont,setCont] = useState(0);
-    function contador(){
-    setCont(cont+1);
-    
-        } 
-return <div>USUÁRIOS CONECTADOS = {cont}
-<button onClick={contador}>Clique Aqui!</button>
-</div>
+function HOME(){
 
 
-} export default HOME
+    return <div>Joao Lima
+        <div>{calcula}</div>
+    </div>
+
+}export default HOME
+
+
+function calcula(){
+const [dados,setDados] = useState(1);
+
+      function calc(){
+      setDados(dados + 1)
+      }
+
+      return (
+
+      <div>
+          Teste
+      </div>
+
+      )
+
+}
+
+
+
+
+
+
 
