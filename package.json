@@ -1,0 +1,25 @@
+{
+  "name": "vercel",
+  "version": "1.0.0",
+  "description": "TESTE DE CONEXÃO COM A VERCEL\r HOSPEDAGEM NEXT.JS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoitz/vercel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaoitz/vercel/issues"
+  },
+  "homepage": "https://github.com/joaoitz/vercel#readme",
+  "dependencies": {
+    "next": "^10.1.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
