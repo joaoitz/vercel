@@ -1,33 +1,31 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react';
+
+function Example() {
 
 
-function HOME(){
+        const [count, setCount] = useState(0);
+      
+          function calcula(){
+              setCount(count + 1)
+            }
+
+            function setarNOME(){
 
 
-    return <div>
-        <div>{calcula}</div>
-    </div>
-
-}export default HOME
+            }
 
 
-function calcula(){
-const [dados,setDados] = useState(1);
+        return (
+          <div>
+            <p>You clicked {count} times</p>
+            <button onClick={calcula}>
+              Click me
+            </button>
+          </div>
+        );
 
-      function calc(){
-      setDados(dados + 1)
-      }
-
-      return (
-
-      <div>
-          Teste
-      </div>
-
-      )
-
-}
-
+ 
+} export default Example
 
 
 

@@ -20,50 +20,59 @@ var _jsxFileName = "C:\\TESTE\\vercel\\pages\\index.js",
 
 
 
-function HOME() {
+function Example() {
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
-    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
-      children: calcula
-    }, void 0, false, {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("calcula", {}, void 0, false, {
       fileName: _jsxFileName,
       lineNumber: 8,
-      columnNumber: 9
+      columnNumber: 7
     }, this)
   }, void 0, false, {
     fileName: _jsxFileName,
     lineNumber: 7,
-    columnNumber: 12
+    columnNumber: 5
   }, this);
 }
 
-_c = HOME;
-/* harmony default export */ __webpack_exports__["default"] = (HOME);
+_c = Example;
+/* harmony default export */ __webpack_exports__["default"] = (Example);
 
 function calcula() {
   _s();
 
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(1),
-      dados = _useState[0],
-      setDados = _useState[1];
-
-  function calc() {
-    setDados(dados + 1);
-  }
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(0),
+      count = _useState[0],
+      setCount = _useState[1];
 
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
-    children: "Teste"
-  }, void 0, false, {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("p", {
+      children: ["You clicked ", count, " times"]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+      onClick: function onClick() {
+        return setCount(count + 1);
+      },
+      children: "Click me"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }, this)]
+  }, void 0, true, {
     fileName: _jsxFileName,
-    lineNumber: 23,
-    columnNumber: 7
+    lineNumber: 19,
+    columnNumber: 5
   }, this);
 }
 
-_s(calcula, "c1lvHq7qB7HUfPrXt4LxeBGXd/s=");
+_s(calcula, "oDgYfYHkD9Wkv4hrAPCkI/ev3YU=");
 
 var _c;
 
-$RefreshReg$(_c, "HOME");
+$RefreshReg$(_c, "Example");
 
 ;
     var _a, _b;
@@ -125,4 +134,4 @@ $RefreshReg$(_c, "HOME");
 /***/ })
 
 })
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOlsiSE9NRSIsImNhbGN1bGEiLCJ1c2VTdGF0ZSIsImRhZG9zIiwic2V0RGFkb3MiLCJjYWxjIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBOztBQUdBLFNBQVNBLElBQVQsR0FBZTtBQUdYLHNCQUFPO0FBQUEsMkJBQ0g7QUFBQSxnQkFBTUM7QUFBTjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBREc7QUFBQTtBQUFBO0FBQUE7QUFBQSxVQUFQO0FBSUg7O0tBUFFELEk7QUFPT0EsbUVBQWY7O0FBR0QsU0FBU0MsT0FBVCxHQUFrQjtBQUFBOztBQUFBLGtCQUNPQyxzREFBUSxDQUFDLENBQUQsQ0FEZjtBQUFBLE1BQ1hDLEtBRFc7QUFBQSxNQUNMQyxRQURLOztBQUdaLFdBQVNDLElBQVQsR0FBZTtBQUNmRCxZQUFRLENBQUNELEtBQUssR0FBRyxDQUFULENBQVI7QUFDQzs7QUFFRCxzQkFFQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxVQUZBO0FBUUw7O0dBZlFGLE8iLCJmaWxlIjoic3RhdGljL3dlYnBhY2svcGFnZXMvaW5kZXguYTg3ZThkODgyMDg5MzM3YWRjYTIuaG90LXVwZGF0ZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCx7dXNlU3RhdGV9IGZyb20gJ3JlYWN0J1xyXG5cclxuXHJcbmZ1bmN0aW9uIEhPTUUoKXtcclxuXHJcblxyXG4gICAgcmV0dXJuIDxkaXY+XHJcbiAgICAgICAgPGRpdj57Y2FsY3VsYX08L2Rpdj5cclxuICAgIDwvZGl2PlxyXG5cclxufWV4cG9ydCBkZWZhdWx0IEhPTUVcclxuXHJcblxyXG5mdW5jdGlvbiBjYWxjdWxhKCl7XHJcbmNvbnN0IFtkYWRvcyxzZXREYWRvc10gPSB1c2VTdGF0ZSgxKTtcclxuXHJcbiAgICAgIGZ1bmN0aW9uIGNhbGMoKXtcclxuICAgICAgc2V0RGFkb3MoZGFkb3MgKyAxKVxyXG4gICAgICB9XHJcblxyXG4gICAgICByZXR1cm4gKFxyXG5cclxuICAgICAgPGRpdj5cclxuICAgICAgICAgIFRlc3RlXHJcbiAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgKVxyXG5cclxufVxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuIl0sInNvdXJjZVJvb3QiOiIifQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOlsiRXhhbXBsZSIsImNhbGN1bGEiLCJ1c2VTdGF0ZSIsImNvdW50Iiwic2V0Q291bnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7O0FBRUEsU0FBU0EsT0FBVCxHQUFtQjtBQUdqQixzQkFDRTtBQUFBLDJCQUNFO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFERjtBQUFBO0FBQUE7QUFBQTtBQUFBLFVBREY7QUFLRDs7S0FSUUEsTztBQVFRQSxzRUFBZjs7QUFHRixTQUFTQyxPQUFULEdBQW1CO0FBQUE7O0FBQUEsa0JBRVNDLHNEQUFRLENBQUMsQ0FBRCxDQUZqQjtBQUFBLE1BRVZDLEtBRlU7QUFBQSxNQUVIQyxRQUZHOztBQUlqQixzQkFDRTtBQUFBLDRCQUNFO0FBQUEsaUNBQWdCRCxLQUFoQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsWUFERixlQUVFO0FBQVEsYUFBTyxFQUFFO0FBQUEsZUFBTUMsUUFBUSxDQUFDRCxLQUFLLEdBQUcsQ0FBVCxDQUFkO0FBQUEsT0FBakI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsWUFGRjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsVUFERjtBQVFEOztHQVpRRixPIiwiZmlsZSI6InN0YXRpYy93ZWJwYWNrL3BhZ2VzL2luZGV4LjAxMWVmZWMxOWQ4YzM4ZWQ3OGQ0LmhvdC11cGRhdGUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XHJcblxyXG5mdW5jdGlvbiBFeGFtcGxlKCkge1xyXG5cclxuXHJcbiAgcmV0dXJuIChcclxuICAgIDxkaXY+XHJcbiAgICAgIDxjYWxjdWxhIC8+XHJcbiAgICA8L2Rpdj5cclxuICApO1xyXG59IGV4cG9ydCBkZWZhdWx0IEV4YW1wbGVcclxuXHJcblxyXG5mdW5jdGlvbiBjYWxjdWxhKCkge1xyXG5cclxuICBjb25zdCBbY291bnQsIHNldENvdW50XSA9IHVzZVN0YXRlKDApO1xyXG5cclxuICByZXR1cm4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgPHA+WW91IGNsaWNrZWQge2NvdW50fSB0aW1lczwvcD5cclxuICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzZXRDb3VudChjb3VudCArIDEpfT5cclxuICAgICAgICBDbGljayBtZVxyXG4gICAgICA8L2J1dHRvbj5cclxuICAgIDwvZGl2PlxyXG4gICk7XHJcbn1cclxuXHJcblxyXG5cclxuIl0sInNvdXJjZVJvb3QiOiIifQ==
